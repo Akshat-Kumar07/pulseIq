@@ -56,8 +56,8 @@ export default function Step4Review() {
       }
 
       const result = await res.json();
-      sessionStorage.setItem("cardioai_result", JSON.stringify(result));
-      sessionStorage.setItem("cardioai_formData", JSON.stringify(formData));
+      sessionStorage.setItem("pulseiq_result", JSON.stringify(result));
+      sessionStorage.setItem("pulseiq_formData", JSON.stringify(formData));
 
       toast.success("Assessment complete — viewing your results");
       router.push("/results");

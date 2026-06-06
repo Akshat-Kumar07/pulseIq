@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
-  title: "CardioAI — AI-Powered Cardiovascular Risk Assessment",
+  title: "PulseIQ — AI-Powered Cardiovascular Risk Assessment",
   description:
     "Advanced machine learning-powered cardiovascular risk assessment with real-time insights and personalized recommendations. Understand your heart health with clinical precision.",
   keywords: [
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "heart health AI",
   ],
   openGraph: {
-    title: "CardioAI — AI-Powered Cardiovascular Risk Assessment",
+    title: "PulseIQ — AI-Powered Cardiovascular Risk Assessment",
     description:
       "Understand your cardiovascular risk with AI-powered clinical analysis and personalized recommendations.",
     type: "website",

@@ -39,7 +39,7 @@ export default function Footer() {
               <Activity size={16} color="white" strokeWidth={2.5} />
             </div>
             <span style={{ fontSize: 17, fontWeight: 700, color: "#f0f4ff", letterSpacing: "-0.02em" }}>
-              Cardio<span style={{ color: "#F2545B" }}>AI</span>
+              Pulse<span style={{ color: "#F2545B" }}>IQ</span>
             </span>
           </div>
           <p style={{ fontSize: 14, color: "rgba(107,123,158,0.9)", lineHeight: 1.65, maxWidth: 300 }}>
@@ -128,7 +128,7 @@ export default function Footer() {
         }}
       >
         <p style={{ fontSize: 13, color: "rgba(107,123,158,0.7)" }}>
-          © {new Date().getFullYear()} CardioAI. Built for demonstration purposes.
+          © {new Date().getFullYear()} PulseIQ. Built for demonstration purposes.
         </p>
         <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
           <Link href="#" style={{ color: "rgba(107,123,158,0.7)", transition: "color 0.2s" }}>

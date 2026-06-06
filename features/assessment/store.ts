@@ -28,7 +28,7 @@ export const useAssessmentStore = create<AssessmentState>()(
         set({ currentStep: 1, formData: initialFormData, isSubmitting: false }),
     }),
     {
-      name: "cardioai-assessment-v2",
+      name: "pulseiq-assessment-v2",
       partialize: (state) => ({
         currentStep: state.currentStep,
         formData: state.formData,

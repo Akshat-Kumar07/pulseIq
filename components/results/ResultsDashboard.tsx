@@ -112,7 +112,7 @@ export default function ResultsDashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const stored = sessionStorage.getItem("cardioai_result");
+    const stored = sessionStorage.getItem("pulseiq_result");
     if (!stored) { router.replace("/assessment"); return; }
     try {
       setTimeout(() => { setResult(JSON.parse(stored)); setLoading(false); }, 300);
@@ -158,8 +158,8 @@ export default function ResultsDashboard() {
                 <button
                   onClick={() => {
                     useAssessmentStore.getState().reset();
-                    sessionStorage.removeItem("cardioai_result");
-                    sessionStorage.removeItem("cardioai_formData");
+                    sessionStorage.removeItem("pulseiq_result");
+                    sessionStorage.removeItem("pulseiq_formData");
                     router.push("/");
                   }}
                   style={{
@@ -191,8 +191,8 @@ export default function ResultsDashboard() {
                 <div style={{ display: "flex", gap: 10 }}>
                   <button onClick={() => {
                     useAssessmentStore.getState().reset();
-                    sessionStorage.removeItem("cardioai_result");
-                    sessionStorage.removeItem("cardioai_formData");
+                    sessionStorage.removeItem("pulseiq_result");
+                    sessionStorage.removeItem("pulseiq_formData");
                     router.push("/assessment");
                   }} style={{
                     padding: "9px 18px", borderRadius: 9, border: "1px solid rgba(255,255,255,0.1)",
