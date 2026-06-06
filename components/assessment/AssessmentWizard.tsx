@@ -79,7 +79,7 @@ export default function AssessmentWizard() {
                       padding: 0,
                       transition: "color 0.2s",
                     }}
-                    onMouseEnter={(e) => (e.currentTarget.style.color = "#3b82f6")}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "#F2545B")}
                     onMouseLeave={(e) => (e.currentTarget.style.color = "#a8b4cf")}
                   >
                     <ArrowLeft size={14} /> Back to {stepTitles[currentStep - 2]?.label}
@@ -100,7 +100,7 @@ export default function AssessmentWizard() {
                       padding: 0,
                       transition: "color 0.2s",
                     }}
-                    onMouseEnter={(e) => (e.currentTarget.style.color = "#3b82f6")}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "#F2545B")}
                     onMouseLeave={(e) => (e.currentTarget.style.color = "#a8b4cf")}
                   >
                     <ArrowLeft size={14} /> Back to Home

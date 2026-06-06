@@ -79,9 +79,9 @@ export default function Step1Personal() {
               {...register("age", { valueAsNumber: true })}
               style={{ ...inputStyle, paddingRight: 64 }}
               onFocus={(e) => {
-                e.currentTarget.style.borderColor = "#3b82f6";
+                e.currentTarget.style.borderColor = "#F2545B";
                 e.currentTarget.style.boxShadow =
-                  "0 0 0 3px rgba(59,130,246,0.12)";
+                  "0 0 0 3px rgba(242, 84, 91, 0.12)";
               }}
               onBlur={(e) => {
                 e.currentTarget.style.borderColor =
@@ -147,13 +147,13 @@ export default function Step1Personal() {
                   borderRadius: 12,
                   border:
                     selectedGender === val
-                      ? "2px solid #3b82f6"
+                      ? "2px solid #F2545B"
                       : "1px solid rgba(26,37,64,0.9)",
                   background:
                     selectedGender === val
-                      ? "rgba(59,130,246,0.08)"
+                      ? "rgba(242, 84, 91, 0.08)"
                       : "rgba(13,20,36,0.5)",
-                  color: selectedGender === val ? "#60a5fa" : "#a8b4cf",
+                  color: selectedGender === val ? "#F2545B" : "#a8b4cf",
                   fontSize: 16,
                   fontWeight: 700,
                   cursor: "pointer",
@@ -189,13 +189,13 @@ export default function Step1Personal() {
               gap: 8,
               padding: "13px 28px",
               borderRadius: 12,
-              background: "linear-gradient(135deg, #3b82f6, #6366f1)",
+              background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
               border: "none",
-              color: "white",
+              color: "#080b14",
               fontSize: 15,
-              fontWeight: 600,
+              fontWeight: 700,
               cursor: "pointer",
-              boxShadow: "0 6px 24px rgba(59,130,246,0.4)",
+              boxShadow: "0 6px 24px rgba(242, 84, 91, 0.4)",
             }}
           >
             Continue

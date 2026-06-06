@@ -58,8 +58,8 @@ function Field({
             transition: "border-color 0.2s, box-shadow 0.2s",
           }}
           onFocus={(e) => {
-            e.currentTarget.style.borderColor = "#3b82f6";
-            e.currentTarget.style.boxShadow = "0 0 0 3px rgba(59,130,246,0.12)";
+            e.currentTarget.style.borderColor = "#F2545B";
+            e.currentTarget.style.boxShadow = "0 0 0 3px rgba(242, 84, 91, 0.12)";
           }}
           onBlur={(e) => {
             e.currentTarget.style.borderColor = error ? "rgba(239,68,68,0.6)" : "rgba(26,37,64,0.9)";
@@ -173,13 +173,13 @@ export default function Step2Vitals() {
               gap: 8,
               padding: "13px 28px",
               borderRadius: 12,
-              background: "linear-gradient(135deg, #3b82f6, #6366f1)",
+              background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
               border: "none",
-              color: "white",
+              color: "#080b14",
               fontSize: 15,
-              fontWeight: 600,
+              fontWeight: 700,
               cursor: "pointer",
-              boxShadow: "0 6px 24px rgba(59,130,246,0.4)",
+              boxShadow: "0 6px 24px rgba(242, 84, 91, 0.4)",
             }}
           >
             Continue

@@ -35,16 +35,16 @@ function RadioCards<T extends string>({
             style={{
               padding: "14px 16px",
               borderRadius: 10,
-              border: value === opt.value ? "2px solid #3b82f6" : "1px solid rgba(26,37,64,0.9)",
-              background: value === opt.value ? "rgba(59,130,246,0.1)" : "rgba(13,20,36,0.5)",
-              color: value === opt.value ? "#60a5fa" : "#a8b4cf",
+              border: value === opt.value ? "2px solid #F2545B" : "1px solid rgba(26,37,64,0.9)",
+              background: value === opt.value ? "rgba(242,84,91,0.1)" : "rgba(13,20,36,0.5)",
+              color: value === opt.value ? "#F2545B" : "#a8b4cf",
               cursor: "pointer",
               textAlign: "left",
               transition: "all 0.2s ease",
             }}
           >
             <div style={{ fontSize: 13, fontWeight: 700, marginBottom: 3 }}>{opt.label}</div>
-            <div style={{ fontSize: 12, color: value === opt.value ? "#93c5fd" : "#6b7b9e", lineHeight: 1.4 }}>
+            <div style={{ fontSize: 12, color: value === opt.value ? "#DCEDFF" : "#6b7b9e", lineHeight: 1.4 }}>
               {opt.description}
             </div>
           </button>
@@ -218,7 +218,7 @@ export default function Step3Medical() {
                 padding: "13px 18px", outline: "none", fontFamily: "inherit",
                 boxSizing: "border-box", transition: "border-color 0.2s, box-shadow 0.2s",
               }}
-              onFocus={(e) => { e.currentTarget.style.borderColor = "#3b82f6"; e.currentTarget.style.boxShadow = "0 0 0 3px rgba(59,130,246,0.12)"; }}
+              onFocus={(e) => { e.currentTarget.style.borderColor = "#F2545B"; e.currentTarget.style.boxShadow = "0 0 0 3px rgba(242,84,91,0.12)"; }}
               onBlur={(e) => { e.currentTarget.style.borderColor = errors.oldpeak ? "rgba(239,68,68,0.6)" : "rgba(26,37,64,0.9)"; e.currentTarget.style.boxShadow = "none"; }}
             />
           </div>
@@ -254,9 +254,9 @@ export default function Step3Medical() {
           <button type="submit"
             style={{
               display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 28px",
-              borderRadius: 12, background: "linear-gradient(135deg, #3b82f6, #6366f1)", border: "none",
-              color: "white", fontSize: 15, fontWeight: 600, cursor: "pointer",
-              boxShadow: "0 6px 24px rgba(59,130,246,0.4)",
+              borderRadius: 12, background: "linear-gradient(135deg, #F2545B, #DCEDFF)", border: "none",
+              color: "#080b14", fontSize: 15, fontWeight: 700, cursor: "pointer",
+              boxShadow: "0 6px 24px rgba(242,84,91,0.4)",
             }}>
             Review Summary<ArrowRight size={16} />
           </button>

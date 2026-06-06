@@ -175,7 +175,7 @@ export default function ResultsDashboard() {
                     padding: 0,
                     transition: "color 0.2s",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = "#3b82f6")}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = "#F2545B")}
                   onMouseLeave={(e) => (e.currentTarget.style.color = "#a8b4cf")}
                 >
                   <ArrowLeft size={14} /> Back to Home
@@ -199,8 +199,8 @@ export default function ResultsDashboard() {
                     background: "transparent", color: "#a8b4cf", fontSize: 13, fontWeight: 500, cursor: "pointer",
                   }}>Retake Assessment</button>
                   <button onClick={() => window.print()} style={{
-                    padding: "9px 18px", borderRadius: 9, border: "1px solid rgba(59,130,246,0.3)",
-                    background: "rgba(59,130,246,0.1)", color: "#60a5fa", fontSize: 13, fontWeight: 600, cursor: "pointer",
+                    padding: "9px 18px", borderRadius: 9, border: "1px solid rgba(242,84,91,0.3)",
+                    background: "rgba(242,84,91,0.1)", color: "#F2545B", fontSize: 13, fontWeight: 600, cursor: "pointer",
                   }}>Download Report</button>
                 </div>
               </div>

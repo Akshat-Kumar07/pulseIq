@@ -14,7 +14,7 @@ export default function HomePage() {
       <div
         style={{
           height: 1,
-          background: "linear-gradient(90deg, transparent, rgba(59,130,246,0.2), transparent)",
+          background: "linear-gradient(90deg, transparent, rgba(242,84,91,0.2), transparent)",
           maxWidth: 900,
           margin: "0 auto",
         }}

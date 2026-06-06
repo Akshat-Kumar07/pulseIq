@@ -122,11 +122,11 @@ export default function Step4Review() {
       <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
         {/* Info banner */}
         <div style={{
-          background: "rgba(59,130,246,0.06)", border: "1px solid rgba(59,130,246,0.2)",
+          background: "rgba(242,84,91,0.06)", border: "1px solid rgba(242,84,91,0.2)",
           borderRadius: 12, padding: "16px 20px", marginBottom: 28,
           display: "flex", alignItems: "flex-start", gap: 12,
         }}>
-          <CheckCircle size={20} color="#60a5fa" style={{ flexShrink: 0, marginTop: 2 }} />
+          <CheckCircle size={20} color="#F2545B" style={{ flexShrink: 0, marginTop: 2 }} />
           <div>
             <p style={{ fontSize: 14, fontWeight: 600, color: "#f0f4ff", marginBottom: 4 }}>Review your information</p>
             <p style={{ fontSize: 13, color: "#6b7b9e", lineHeight: 1.5 }}>
@@ -145,10 +145,10 @@ export default function Step4Review() {
               <h3 style={{ fontSize: 14, fontWeight: 700, color: "#f0f4ff" }}>{section.title}</h3>
               <button type="button" onClick={() => setStep(section.step)}
                 style={{
-                  fontSize: 13, color: "#60a5fa", background: "none", border: "none",
+                  fontSize: 13, color: "#F2545B", background: "none", border: "none",
                   cursor: "pointer", padding: "2px 8px", borderRadius: 6, transition: "background 0.2s",
                 }}
-                onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(59,130,246,0.1)")}
+                onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(242,84,91,0.1)")}
                 onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
               >Edit</button>
             </div>
@@ -175,10 +175,10 @@ export default function Step4Review() {
             style={{
               display: "inline-flex", alignItems: "center", gap: 10, padding: "14px 32px",
               borderRadius: 12,
-              background: isSubmitting ? "rgba(59,130,246,0.5)" : "linear-gradient(135deg, #3b82f6, #6366f1)",
-              border: "none", color: "white", fontSize: 15, fontWeight: 600,
+              background: isSubmitting ? "rgba(242,84,91,0.5)" : "linear-gradient(135deg, #F2545B, #DCEDFF)",
+              border: "none", color: "#080b14", fontSize: 15, fontWeight: 700,
               cursor: isSubmitting ? "not-allowed" : "pointer",
-              boxShadow: isSubmitting ? "none" : "0 6px 24px rgba(59,130,246,0.4)",
+              boxShadow: isSubmitting ? "none" : "0 6px 24px rgba(242,84,91,0.4)",
               transition: "opacity 0.2s",
             }}>
             {isSubmitting ? (<><Loader2 size={16} style={{ animation: "spin 1s linear infinite" }} />Analyzing...</>) : "Submit Assessment"}

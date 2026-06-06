@@ -8,10 +8,10 @@
   --border: #1a2540;
   --border-subtle: rgba(255, 255, 255, 0.06);
 
-  --primary: #3b82f6;
-  --primary-light: #60a5fa;
-  --primary-dark: #1d4ed8;
-  --accent: #6366f1;
+  --primary: #F2545B;
+  --primary-light: #ff7780;
+  --primary-dark: #c9343c;
+  --accent: #DCEDFF;
 
   --risk-low: #10b981;
   --risk-low-glow: rgba(16, 185, 129, 0.3);
@@ -100,7 +100,7 @@ body {
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #60a5fa 100%);
+  background: linear-gradient(135deg, #F2545B 0%, #DCEDFF 50%, #F2545B 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -134,7 +134,7 @@ body {
   position: absolute;
   inset: -1px;
   border-radius: inherit;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.5), rgba(99, 102, 241, 0.2), rgba(59, 130, 246, 0.1));
+  background: linear-gradient(135deg, rgba(242, 84, 91, 0.5), rgba(220, 237, 255, 0.2), rgba(242, 84, 91, 0.1));
   z-index: -1;
   pointer-events: none;
 }
@@ -206,6 +206,6 @@ body {
 }
 .card-hover:hover {
   transform: translateY(-2px);
-  border-color: rgba(59, 130, 246, 0.3);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(59, 130, 246, 0.1);
+  border-color: rgba(242, 84, 91, 0.3);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(242, 84, 91, 0.1);
 }

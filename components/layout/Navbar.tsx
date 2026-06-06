@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Activity, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "/#features", label: "Features" },
@@ -56,37 +56,10 @@ export default function Navbar() {
             height: 64,
             display: "flex",
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: "center",
+            position: "relative",
           }}
         >
-          {/* Logo */}
-          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 10 }}>
-            <div
-              style={{
-                width: 34,
-                height: 34,
-                borderRadius: 9,
-                background: "linear-gradient(135deg, #3b82f6, #6366f1)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                boxShadow: "0 0 20px rgba(59,130,246,0.4)",
-              }}
-            >
-              <Activity size={18} color="white" strokeWidth={2.5} />
-            </div>
-            <span
-              style={{
-                fontSize: 18,
-                fontWeight: 700,
-                color: "#f0f4ff",
-                letterSpacing: "-0.02em",
-              }}
-            >
-              Cardio<span style={{ color: "#60a5fa" }}>AI</span>
-            </span>
-          </Link>
-
           {/* Desktop nav */}
           <div
             style={{
@@ -107,7 +80,7 @@ export default function Navbar() {
                   fontWeight: 500,
                   color:
                     pathname === link.href
-                      ? "#60a5fa"
+                      ? "#F2545B"
                       : "rgba(168, 180, 207, 0.9)",
                   textDecoration: "none",
                   transition: "color 0.2s ease, background 0.2s ease",
@@ -119,7 +92,7 @@ export default function Navbar() {
                 onMouseLeave={(e) => {
                   e.currentTarget.style.color =
                     pathname === link.href
-                      ? "#60a5fa"
+                      ? "#F2545B"
                       : "rgba(168, 180, 207, 0.9)";
                   e.currentTarget.style.background = "transparent";
                 }}
@@ -134,12 +107,12 @@ export default function Navbar() {
                 marginLeft: 8,
                 padding: "8px 20px",
                 borderRadius: 10,
-                background: "linear-gradient(135deg, #3b82f6, #6366f1)",
-                color: "white",
+                background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
+                color: "#080b14", // Dark text for light gradient button to ensure high contrast
                 fontSize: 14,
-                fontWeight: 600,
+                fontWeight: 700,
                 textDecoration: "none",
-                boxShadow: "0 4px 16px rgba(59,130,246,0.35)",
+                boxShadow: "0 4px 16px rgba(242,84,91,0.35)",
                 transition: "opacity 0.2s ease, transform 0.2s ease",
                 display: "inline-block",
               }}
@@ -166,6 +139,8 @@ export default function Navbar() {
               color: "#f0f4ff",
               cursor: "pointer",
               padding: 8,
+              position: "absolute",
+              right: 0,
             }}
             className="mobile-menu-btn"
             aria-label="Toggle mobile menu"
@@ -221,10 +196,10 @@ export default function Navbar() {
                 marginTop: 16,
                 padding: "12px 24px",
                 borderRadius: 10,
-                background: "linear-gradient(135deg, #3b82f6, #6366f1)",
-                color: "white",
+                background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
+                color: "#080b14",
                 fontSize: 15,
-                fontWeight: 600,
+                fontWeight: 700,
                 textDecoration: "none",
                 textAlign: "center",
               }}

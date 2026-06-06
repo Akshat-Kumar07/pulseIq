@@ -58,11 +58,11 @@ export default function HeroSection() {
             gap: 8,
             padding: "6px 14px",
             borderRadius: 100,
-            border: "1px solid rgba(59,130,246,0.35)",
-            background: "rgba(59,130,246,0.08)",
+            border: "1px solid rgba(242,84,91,0.35)",
+            background: "rgba(242,84,91,0.08)",
             fontSize: 13,
             fontWeight: 600,
-            color: "#60a5fa",
+            color: "#F2545B",
             marginBottom: 28,
             letterSpacing: "0.02em",
           }}
@@ -126,21 +126,21 @@ export default function HeroSection() {
               gap: 8,
               padding: "14px 28px",
               borderRadius: 12,
-              background: "linear-gradient(135deg, #3b82f6, #6366f1)",
-              color: "white",
+              background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
+              color: "#080b14",
               fontSize: 16,
-              fontWeight: 600,
+              fontWeight: 700,
               textDecoration: "none",
-              boxShadow: "0 8px 32px rgba(59,130,246,0.4)",
+              boxShadow: "0 8px 32px rgba(242,84,91,0.4)",
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "translateY(-2px)";
-              e.currentTarget.style.boxShadow = "0 12px 40px rgba(59,130,246,0.55)";
+              e.currentTarget.style.boxShadow = "0 12px 40px rgba(242,84,91,0.55)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "translateY(0)";
-              e.currentTarget.style.boxShadow = "0 8px 32px rgba(59,130,246,0.4)";
+              e.currentTarget.style.boxShadow = "0 8px 32px rgba(242,84,91,0.4)";
             }}
           >
             Start Assessment
@@ -201,7 +201,7 @@ export default function HeroSection() {
                 style={{
                   fontSize: 18,
                   fontWeight: 700,
-                  color: "#60a5fa",
+                  color: "#F2545B",
                   letterSpacing: "-0.01em",
                 }}
               >
@@ -272,7 +272,7 @@ export default function HeroSection() {
           <span style={{ fontSize: 11, color: "#6b7b9e", fontWeight: 500, textTransform: "uppercase", letterSpacing: "0.08em" }}>
             Accuracy
           </span>
-          <span style={{ fontSize: 15, fontWeight: 700, color: "#60a5fa" }}>
+          <span style={{ fontSize: 15, fontWeight: 700, color: "#F2545B" }}>
             Clinical grade
           </span>
         </motion.div>

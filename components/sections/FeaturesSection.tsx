@@ -16,21 +16,21 @@ const features = [
     title: "AI-Powered Risk Prediction",
     description:
       "Machine learning model trained on the UCI Heart Disease dataset analyzes 13 clinical markers to predict cardiovascular risk with high precision.",
-    color: "#3b82f6",
+    color: "#F2545B",
   },
   {
     icon: Zap,
     title: "Real-Time Analysis",
     description:
       "Instant processing of your health data with sub-second response times. No waiting — your results are generated the moment you complete the form.",
-    color: "#6366f1",
+    color: "#DCEDFF",
   },
   {
     icon: LineChart,
     title: "Personalized Health Insights",
     description:
       "Receive tailored recommendations for lifestyle, exercise, and nutrition based on your specific risk profile and clinical markers.",
-    color: "#8b5cf6",
+    color: "#F2545B",
   },
   {
     icon: ShieldCheck,
@@ -80,11 +80,11 @@ export default function FeaturesSection() {
             gap: 8,
             padding: "5px 14px",
             borderRadius: 100,
-            border: "1px solid rgba(99,102,241,0.35)",
-            background: "rgba(99,102,241,0.08)",
+            border: "1px solid rgba(242,84,91,0.35)",
+            background: "rgba(242,84,91,0.08)",
             fontSize: 13,
             fontWeight: 600,
-            color: "#a78bfa",
+            color: "#F2545B",
             marginBottom: 20,
             letterSpacing: "0.02em",
           }}

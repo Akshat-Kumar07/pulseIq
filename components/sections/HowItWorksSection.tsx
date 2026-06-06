@@ -11,7 +11,7 @@ const steps = [
     title: "Complete the Clinical Assessment",
     description:
       "Answer 13 evidence-based clinical questions across four guided steps. Each question maps to a validated cardiovascular risk marker.",
-    color: "#3b82f6",
+    color: "#F2545B",
   },
   {
     number: "02",
@@ -19,7 +19,7 @@ const steps = [
     title: "AI Processes Your Data",
     description:
       "Our machine learning model — trained on the UCI Heart Disease dataset — analyzes your profile and computes a probabilistic risk score.",
-    color: "#6366f1",
+    color: "#DCEDFF",
   },
   {
     number: "03",
@@ -27,7 +27,7 @@ const steps = [
     title: "Receive Your Clinical Report",
     description:
       "View your personalized risk dashboard with factor analysis, interactive charts, and actionable recommendations from your care team.",
-    color: "#8b5cf6",
+    color: "#F2545B",
   },
 ];
 
@@ -57,11 +57,11 @@ export default function HowItWorksSection() {
               gap: 8,
               padding: "5px 14px",
               borderRadius: 100,
-              border: "1px solid rgba(59,130,246,0.35)",
-              background: "rgba(59,130,246,0.08)",
+              border: "1px solid rgba(242,84,91,0.35)",
+              background: "rgba(242,84,91,0.08)",
               fontSize: 13,
               fontWeight: 600,
-              color: "#60a5fa",
+              color: "#F2545B",
               marginBottom: 20,
               letterSpacing: "0.02em",
             }}
@@ -99,7 +99,7 @@ export default function HowItWorksSection() {
               left: "calc(16.67% + 24px)",
               right: "calc(16.67% + 24px)",
               height: 1,
-              background: "linear-gradient(90deg, #3b82f650, #6366f150, #8b5cf650)",
+              background: "linear-gradient(90deg, rgba(242, 84, 91, 0.3), rgba(220, 237, 255, 0.3), rgba(242, 84, 91, 0.15))",
             }}
           />
 
@@ -193,12 +193,12 @@ export default function HowItWorksSection() {
               gap: 8,
               padding: "14px 32px",
               borderRadius: 12,
-              background: "linear-gradient(135deg, #3b82f6, #6366f1)",
-              color: "white",
+              background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
+              color: "#080b14",
               fontSize: 15,
-              fontWeight: 600,
+              fontWeight: 700,
               textDecoration: "none",
-              boxShadow: "0 8px 32px rgba(59,130,246,0.4)",
+              boxShadow: "0 8px 32px rgba(242,84,91,0.4)",
             }}
           >
             Begin Your Assessment

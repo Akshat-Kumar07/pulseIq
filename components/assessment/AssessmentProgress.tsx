@@ -53,7 +53,7 @@ export default function AssessmentProgress({ currentStep, steps }: AssessmentPro
                   gap: 10,
                   paddingBottom: 16,
                   borderBottom: isActive
-                    ? "2px solid #3b82f6"
+                    ? "2px solid #F2545B"
                     : isDone
                     ? "2px solid #10b98160"
                     : "2px solid transparent",
@@ -66,7 +66,7 @@ export default function AssessmentProgress({ currentStep, steps }: AssessmentPro
                     borderColor: isDone
                       ? "#10b981"
                       : isActive
-                      ? "#3b82f6"
+                      ? "#F2545B"
                       : "rgba(255,255,255,0.08)",
                     opacity: 1,
                   }}
@@ -83,10 +83,10 @@ export default function AssessmentProgress({ currentStep, steps }: AssessmentPro
                     background: isDone
                       ? "#10b981"
                       : isActive
-                      ? "linear-gradient(135deg, #3b82f6, #6366f1)"
+                      ? "linear-gradient(135deg, #F2545B, #DCEDFF)"
                       : "rgba(26,37,64,0.8)",
                     boxShadow: isActive
-                      ? "0 0 0 3px rgba(59,130,246,0.2)"
+                      ? "0 0 0 3px rgba(242, 84, 91, 0.2)"
                       : "none",
                     transition: "background 0.3s ease, box-shadow 0.3s ease",
                   }}

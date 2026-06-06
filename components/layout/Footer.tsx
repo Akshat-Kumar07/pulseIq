@@ -30,7 +30,7 @@ export default function Footer() {
                 width: 32,
                 height: 32,
                 borderRadius: 8,
-                background: "linear-gradient(135deg, #3b82f6, #6366f1)",
+                background: "linear-gradient(135deg, #F2545B, #DCEDFF)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -39,7 +39,7 @@ export default function Footer() {
               <Activity size={16} color="white" strokeWidth={2.5} />
             </div>
             <span style={{ fontSize: 17, fontWeight: 700, color: "#f0f4ff", letterSpacing: "-0.02em" }}>
-              Cardio<span style={{ color: "#60a5fa" }}>AI</span>
+              Cardio<span style={{ color: "#F2545B" }}>AI</span>
             </span>
           </div>
           <p style={{ fontSize: 14, color: "rgba(107,123,158,0.9)", lineHeight: 1.65, maxWidth: 300 }}>
