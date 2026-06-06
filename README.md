@@ -56,7 +56,7 @@ Built with **Next.js (App Router)** and **React 19**, the application combines a
 
 ### Backend & Machine Learning
 - **API Proxy Route:** Next.js API route (`/api/predict`) with server-side validation
-- **ML Engine API:** Hugging Face Space running a Random Forest Classifier trained on UCI heart metrics.
+- **ML Engine API:** Hugging Face Space running a Logistic Regression trained on UCI heart metrics.
 - **Model Endpoint:** `https://akshatkumar1001-pulseiq.hf.space/predict`
 
 ---
